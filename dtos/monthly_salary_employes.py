@@ -4,8 +4,8 @@ from config.app_config import MONTHS
 class MonthtlySalaryEmployee(EmployeesInterface):
     def __init__(self, employee):
         super().__init__(employee)
-        self.salary_value = employee['monthlySalary']
-        self.calculated_salary = self.getSalary()
+        self.salaryValue = employee['monthlySalary']
+        self.calculatedSalary = self.getSalary()
 
     def getSalary(self):
-        return self.salary_value * MONTHS
+        return self.salaryValue * MONTHS
