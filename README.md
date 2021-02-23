@@ -23,7 +23,7 @@ $ (masglobal)pip install -r requirements.txt
 ```
 
 ```sh
-(masglobal)$ python manage.py runserver
+(masglobal)$ python app.py
 ```
 And navigate to `http://127.0.0.1:5000/`.
 
